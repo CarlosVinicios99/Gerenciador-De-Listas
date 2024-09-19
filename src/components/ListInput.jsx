@@ -10,6 +10,8 @@ const ListInput = ({addList}) => {
             id: Date.now(),
             title
         })
+
+        setTitle("")
     }
 
     return (

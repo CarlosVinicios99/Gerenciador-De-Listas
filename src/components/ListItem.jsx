@@ -1,9 +1,11 @@
 import React from 'react'
 
-const ListItem = () => {
+const ListItem = ({item, removeItem, markItem}) => {
   return (
-    <div>ListItem</div>
+    <div>
+      <span onClick={markItem} style={{textDecoration: item.isDone ? "line-through": "none"}}>{item.description}</span>
+      <button onClick={removeItem}>Remover</button>
+    </div>   
   )
 }
-
-export default ListItem
+export default ListItem;

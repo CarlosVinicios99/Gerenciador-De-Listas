@@ -3,7 +3,9 @@ import React from 'react'
 const List = ({title, items}) => {
 
   return (
-    <div>List</div>
+    <div>
+        <span>{title}</span>
+    </div>
   )
 
 }
