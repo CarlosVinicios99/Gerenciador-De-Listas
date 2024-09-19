@@ -1,8 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const ItemInput = () => {
+const ItemInput = ({addItem}) => {
+
+  const [description, setDescription] = useState("")
+
+  const handleAddItem = () => {
+    addItem({
+      id: Date.now(),
+      description,
+      isDone: false
+    })
+
+    setDescription("")
+  }
+
   return (
-    <div>ItemInput</div>
+    <form onSubmit={handleAddItem}>
+      <input type="text" value={description} onChange={(e) => setDescription(e.target.value)}/>
+      <button type="submit">Adicionar Item</button>
+    </form>
   )
 }
 
