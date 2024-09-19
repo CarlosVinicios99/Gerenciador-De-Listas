@@ -4,7 +4,10 @@ const ItemInput = ({addItem}) => {
 
   const [description, setDescription] = useState("")
 
-  const handleAddItem = () => {
+  const handleAddItem = (e) => {
+
+    e.preventDefault()
+    
     addItem({
       id: Date.now(),
       description,
