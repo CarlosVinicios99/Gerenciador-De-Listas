@@ -17,7 +17,7 @@ function App() {
       <ListInput addList={addList}/>
       {!lists.length ? 
         (<h2>Não há listas...</h2>) 
-        : (<div>{lists.map(list => <List key={list.id} title={list.title} items={list.items}></List>)}</div>)
+        : (<div>{lists.map(list => <List key={list.id} list={list}></List>)}</div>)
       }
     </>
   )

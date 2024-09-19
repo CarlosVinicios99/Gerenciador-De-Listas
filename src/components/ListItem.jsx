@@ -2,10 +2,10 @@ import React from 'react'
 
 const ListItem = ({item, removeItem, markItem}) => {
   return (
-    <div>
+    <li>
       <span onClick={markItem} style={{textDecoration: item.isDone ? "line-through": "none"}}>{item.description}</span>
       <button onClick={removeItem}>Remover</button>
-    </div>   
+    </li>   
   )
 }
 export default ListItem;
