@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './ListInput.css'
 
 const ListInput = ({addList}) => {
 

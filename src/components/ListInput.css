@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+input {
+    padding: 0.4rem;
+    width: 20rem;
+    height: 1.3rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+}
+
+button {
+    width: 7.5rem;
+    height: 2.18rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(177, 177, 177);
+    outline: 1px solid #68dde6;
+}
+
+input:hover {
+    outline: 1px solid #68dde6;
+}

@@ -8,11 +8,15 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    font-size: 1.7rem;
+}
+
 .app-container {
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.8rem;
 }
