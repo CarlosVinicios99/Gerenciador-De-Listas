@@ -12,14 +12,14 @@ function App() {
   }
 
   return (
-    <>
+    <div className="app-container">
       <h1>Gerenciador de Listas</h1>
       <ListInput addList={addList}/>
       {!lists.length ? 
         (<h2>Não há listas...</h2>) 
         : (<div>{lists.map(list => <List key={list.id} list={list}></List>)}</div>)
       }
-    </>
+    </div>
   )
 }
 
