@@ -7,11 +7,12 @@ form {
 input {
     padding: 0.4rem;
     width: 20rem;
-    height: 1.3rem;
+    height: 1.35rem;
     font-size: 1rem;
     border-radius: 0.4rem;
     outline: none;
     border: none;
+    margin-bottom: 2rem;
 }
 
 button {
@@ -24,10 +25,10 @@ button {
 }
 
 button:hover {
-    background-color: rgb(177, 177, 177);
-    outline: 1px solid #68dde6;
+    background-color: rgb(184, 184, 184);
+    outline: 1px solid #72bdc2;
 }
 
 input:hover {
-    outline: 1px solid #68dde6;
+    outline: 1px solid #72bdc2;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import ListItem from './ListItem';
 import ItemInput from './ItemInput';
+import './List.css'
 
 const List = ({list}) => {
 
@@ -21,8 +22,13 @@ const List = ({list}) => {
   }
 
   return (
-    <div>
-      <button onClick={() => setSelected(!selected)}>{list.title}</button>
+    <div className="list-content">
+      <button className="selector-list" onClick={() => setSelected(!selected)}>
+        <div className="title-list-content">
+          <img src="../../public/images/icone-lista.png" alt="ícone de lista" className="icon-list"/>
+          <span>{list.title}</span>
+        </div>
+      </button>
       {
         selected && items.length ?
           (

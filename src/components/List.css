@@ -1,0 +1,26 @@
+.selector-list {
+    background-color: rgb(214, 251, 255);
+    border-radius: 0.2rem;
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.35rem;
+    letter-spacing: 0.025rem;
+    font-weight: 600;
+}
+
+.icon-list {
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 0.4rem;
+}
+
+.list-content {
+    border: red 1px solid;
+    background-color: rgb(214, 251, 255);
+}
+
+.title-list-content {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
