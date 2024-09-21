@@ -23,7 +23,7 @@ const List = ({list}) => {
 
   return (
     <div className={selected ? "list-content-selected" : "list-content"}>
-      <button className="selector-list" onClick={() => setSelected(!selected)}>
+      <button className={selected ? "selector-list-selected" : "selector-list"} onClick={() => setSelected(!selected)}>
         <div className="title-list-content">
           <img src="../../public/images/icone-lista.png" alt="ícone de lista" className="icon-list"/>
           <span>{list.title}</span>

@@ -1,0 +1,25 @@
+.item {
+    margin-left: 1rem;
+}
+.icon-lixeira {
+    width: 1.22rem;
+    height: 1.22rem;
+}
+
+.item-button {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent
+}
+
+.item-description {
+    color: black;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+li::marker {
+    font-size: 2rem;
+    color: rgb(52, 80, 163);
+}
