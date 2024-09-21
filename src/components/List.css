@@ -1,8 +1,25 @@
-.selector-list {
+.list-content {
     background-color: rgb(214, 251, 255);
+    outline: 1px solid rgb(144, 253, 253);
     border-radius: 0.2rem;
     width: 25rem;
+}
+
+.list-content-selected {
+    width: 25rem;
+    background-color: rgb(214, 251, 255);
+    padding: 0 0.5rem;
+    border-radius: 0.2rem;
+    outline: 1px solid rgb(144, 253, 253);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+}
+
+.selector-list {
+    background-color: rgb(214, 251, 255);
     height: 2.5rem;
+    width: 100%;
     font-size: 1.35rem;
     letter-spacing: 0.025rem;
     font-weight: 600;
@@ -12,11 +29,6 @@
     width: 1.8rem;
     height: 1.8rem;
     margin-left: 0.4rem;
-}
-
-.list-content {
-    border: red 1px solid;
-    background-color: rgb(214, 251, 255);
 }
 
 .title-list-content {
